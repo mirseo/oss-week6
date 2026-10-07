@@ -1,0 +1,19 @@
+[project]
+name = "2026-10-07"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "JUN-HYEOK SEO", email = "starlights2283@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=3.0.6",
+]
+
+[project.scripts]
+2026-10-07 = "2026_10_07:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
